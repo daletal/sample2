@@ -1,4 +1,4 @@
-# import numpy as np
+import numpy as np
 
 # def vectorize_sequences(sequences, dimension=10000):
 # results = np.zeros((len(sequences), dimension))
@@ -116,4 +116,3 @@
 #     outputs, final_state = tf.nn.dynamic_rnn(
 #         lstm_cell, X_in, initial_state=init_state, time_major=False
 #     )
-
